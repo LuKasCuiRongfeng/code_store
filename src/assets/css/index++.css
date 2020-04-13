@@ -1,0 +1,62 @@
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+  
+.el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+.carousel-container{
+    margin: auto;
+    width:800px;
+    height:220px;
+}
+.content-box{
+    margin: auto;
+    margin-top: 25px;
+    width:1000px;
+}
+.content-box *{
+    border-radius: 5%;
+}
+.title-bar i{
+    font-size:22px !important;
+    
+}
+.title-bar div{
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.content-bar div{
+    height: 336px;
+}
+.content-bar p,i{
+    font-family:"Helvetica Neue" !important;
+    font-size: 8px;
+}
+.content-bar p{
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.content-bar p:hover{
+    white-space: normal;
+    color: aqua;
+}
+.content-bar .content-bar-left div{
+    height:160px;
+}
+.content-bar .content-bar-right ul{
+    list-style-type: none;
+}
+.content-bar .content-bar-right .el-badge{
+    height:20px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+.content-bar .content-bar-right .el-badge>span{
+    margin-left: 5px;
+}
+.content-bar .content-bar-right .el-badge>.el-button{
+    padding:2px;
+}

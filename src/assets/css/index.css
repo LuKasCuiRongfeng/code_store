@@ -1,0 +1,43 @@
+*{
+    margin: 0;padding: 0;
+  }
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+  #nav {
+    padding:10px;
+    position: absolute;
+    right: 0;top:0;
+    z-index: 999;
+  }
+  
+ a {
+    font-weight: normal;
+    color: #2c3e50;
+    text-decoration: none
+  }
+a:hover{
+    font-weight: bold;
+}
+a.router-link-exact-active {
+    color: #42b983;
+  }
+  
+  .app-search{
+      position: absolute;
+      z-index: 999;
+      width:250px;
+      right: 10px;
+      top:120px;
+      opacity: 0.8;
+  }
+  .span-exit:hover{
+    color:rgb(196, 248, 7);
+    font-size: 25px;
+  }
+  .span-exit{
+    transition: all .3s
+  }

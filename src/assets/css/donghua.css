@@ -1,0 +1,46 @@
+.donghua-carousel-container{
+    margin: auto;
+    width:1000px;
+    height:177px;
+    margin-bottom:30px; 
+}
+/*更改指示器的颜色*/
+.el-carousel__indicators--outside button{
+    background-color: rgb(0, 255, 0) !important;
+}
+.donghua-divide{
+    width: 1000px;
+    margin: auto;
+}
+.donghua-title-bar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+.donghua-content-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.donghua-content-bar-row-item{
+    height:148px;
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+.donghua-content-bar-rank-item{
+    margin: 10px 0;
+}
+.donghua-content-bar-row-item-image{
+    border-radius: 5%;
+}
+.donghua-content-bar-row-item-desc{
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 6px 0;
+}
+.donghua-content-bar-row-item-desc:hover{
+    white-space: normal;
+    color: aqua;
+}
+.donghua-content-bar-rank-item-desc{
+    margin-left: 10px;
+    font-size: 16px;
+}
